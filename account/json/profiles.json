@@ -1,0 +1,70 @@
+{
+    "profile_administrator": {
+      "index": "/personal",
+      "navs": [
+        "nav_dashboard",
+        "nav_deposito",
+        "nav_articulos",
+        "nav_ordenes",
+        "nav_cajas",
+        "nav_clientes",
+        "nav_administration",
+        "nav_paginas"
+      ],
+      "pages": [
+        "dashboard",
+        "ingredientes",
+        "articulos",
+        "aumentos",
+        "stock",
+        "stock_historico",
+        "stock_manual",
+        "stock_ingreso",
+        "stock_envio",
+        "stock_movimientos",
+        "stock_cierre",
+        "stock_listado",
+        "integraciones",
+        "ordenes",
+        "orden_local",
+        "orden_plataforma",
+        "orden_edit",
+        "order_edit",
+        "facturacion",
+        "resumen_facturacion",
+        "caja",
+        "caja_historial",
+        "caja_edicion",
+        "caja_fuerte",
+        "clientes",
+        "personal",
+        "links",
+        "blogs",
+        "mensajes",
+        "control_pagos",
+        "sucursal",
+        "sucursales"
+      ],
+      "methods": {
+        "articles": ["add_food", "update_food", "delete"],
+        "clientes": ["add", "update", "delete", "all"],
+        "ordenes": ["add", "update", "delete", "all"]
+      }
+    },
+    "profile_administration": {
+      "index": "/mensajes",
+      "navs": [
+        "nav_articulos",
+        "nav_paginas",
+        "nav_administration"
+      ],
+      "pages": [
+        "articulos",
+        "personal",
+        "blogs",
+        "mensajes"
+      ],
+      "methods": {}
+    }
+  }
+  

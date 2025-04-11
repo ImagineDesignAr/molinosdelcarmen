@@ -1,0 +1,36 @@
+/*# sourceMappingURL=custom.min.css.map */
+.navbar-header {
+  height: 50px;
+}
+.header-item {
+  height: 50px;
+}
+.page-content {
+  padding: calc(50px + var(--vz-grid-gutter-width)) calc(var(--vz-grid-gutter-width) * 0.5) 60px calc(var(--vz-grid-gutter-width) * 0.5);
+}
+@media (min-width: 768px) {
+  :is([data-layout="vertical"], [data-layout="semibox"])[data-sidebar-size="sm"] {
+    min-height: 100vh;
+  }
+}
+.table > :not(caption) > * > * {
+  padding: 0.1rem 0.1rem;
+}
+.form-control:focus {
+  border-color: rgba(105, 94, 239);
+}
+.btn-icon {
+  height: calc(1rem + 1em + 2px);
+  width: calc(1rem + 1em + 2px);
+}
+.btn-icon :is(i, svg, img) {
+  vertical-align: middle;
+}
+.btn-icon.btn-sm {
+  height: calc(0.5rem + 1em + 2px);
+  width: calc(0.5rem + 1em + 2px);
+}
+.btn-icon.btn-lg {
+  height: calc(1.4rem + 1em + 2px);
+  width: calc(1.4rem + 1em + 2px);
+}

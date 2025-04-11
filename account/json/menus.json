@@ -1,0 +1,43 @@
+[
+  {
+    "navs": "nav_dashboard",
+    "label": "Dashboard",
+    "icon": "ri-archive-line",
+    "children": [{ "label": "Dashoard", "path": "dashboard" }]
+  },
+  {
+    "navs": "nav_articulos",
+    "label": "Artículos",
+    "icon": "ri-stack-line",
+    "children": [
+      { "label": "Productos", "path": "articulos" },
+      { "label": "Aumentos", "path": "aumentos" }
+    ]
+  },
+  {
+    "navs": "nav_paginas",
+    "label": "Páginas",
+    "icon": "ri-window-2-line",
+    "children": [
+      { "label": "Links", "path": "links" },
+      { "label": "Blogs", "path": "blogs" }
+    ]
+  },
+  {
+    "navs": "nav_administration",
+    "label": "Administración",
+    "icon": "ri-user-4-line",
+    "children": [
+      { "label": "Mensajes", "path": "mensajes" },
+      { "label": "Listado Personal", "path": "personal" },
+      { "label": "Sucursales", "path": "sucursales" },
+      { "label": "Sucursal", "path": "sucursal" }
+    ]
+  },
+  {
+    "navs": "nav_clientes",
+    "label": "Clientes",
+    "icon": "ri-user-heart-line",
+    "children": [{ "label": "Listado Clientes", "path": "clientes" }]
+  }
+]
